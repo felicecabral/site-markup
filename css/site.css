@@ -1,0 +1,113 @@
+/*selector {
+  property: value;
+  property: value;
+  property: value;
+}*/
+
+/*1em = 16 px*/
+
+/*0123456789abcdef*/
+
+
+/*
+header {
+  background-color: #0f8
+}
+
+body {
+  background-color: #ff9;
+}
+*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  border: 5em;
+  border: white;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 5em;
+  padding-bottom: 10em;
+}
+
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+
+img{
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+nav a:hover,
+nav a:focus {
+  color:#f00;
+  text-decoration: none;
+}
+
+nli {
+    list-style-type: none;
+    width: 50%;
+}
+
+li.left {
+    float: left;
+    background-color: #0f0;
+}
+
+li.right {
+    float: right;
+    background-color: #00f;
+}
+
+@media only screen and (max-width: 480px) {
+    .left, .right {
+        float: none;
+        width: 100%;
+    }
+}
+body{
+  background-color: #ECC7C1;
+
+}
+
+main{
+  background-color: white;
+  padding: 2em;
+  border: 5px ridge purple;
+  max-width: 48em;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body summary{
+  color: #f00;
+}
+
+@media (min-width: 60em) {
+nav a {
+  display: inline-block;
+}

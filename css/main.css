@@ -1,0 +1,51 @@
+/*selector {
+  property: value;
+  property: value;
+  property: value;
+}*/
+
+/*1em = 16 px*/
+
+/*0123456789abcdef*/
+
+
+/*
+header {
+  background-color: #0f8
+}
+
+body {
+  background-color: #ff9;
+}
+*/
+
+header{
+  font: 100%/1.15 cursive, serif;
+}
+
+html{
+  color: white;
+}
+
+img{
+  border: 5px ridge white;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/6a/22/27/6a222736bb0dd1faf0e0c1d7c383ea9f.jpg);
+}
+
+main{
+  background: rgba(0, 0, 0, .8);
+  padding: 2em;
+  border: 5px ridge white;
+  max-width: 48em;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+p{
+  color: white;}
